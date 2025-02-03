@@ -40,13 +40,6 @@ const Express = () => {
         };
       });
     })();
-
-    // クリーンアップ関数を返す
-    return () => {
-      if (viewerDiv) {
-        viewerDiv.innerHTML = "";
-      }
-    };
   }, []);
 
   return (
