@@ -1,0 +1,9 @@
+{
+  "Home": {
+    "title": "Home title zh-CN",
+    "link": "/test"
+  },
+  "Header": {
+    "title": "Header title zh-CN"
+  }
+}
