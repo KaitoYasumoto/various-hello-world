@@ -30,7 +30,7 @@ const Express = () => {
         {
           path: "/webviewer/lib",
           initialDoc: "/test.pdf",
-          licenseKey: License,
+          licenseKey: License, // 無料版でも無料ライセンスの取得が必要になります https://pdfjs.express/documentation/get-started-viewer/react
         },
         viewerDiv
       ).then((instance: WebViewerInstance) => {
