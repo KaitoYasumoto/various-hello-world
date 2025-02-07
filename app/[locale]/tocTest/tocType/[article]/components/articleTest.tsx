@@ -2,7 +2,7 @@
 import React from "react";
 import { usePathname } from "next/navigation";
 
-const Umtest = () => {
+const ArticleTest = () => {
   const path = usePathname();
 
   return (
@@ -12,4 +12,4 @@ const Umtest = () => {
   );
 };
 
-export default Umtest;
+export default ArticleTest;

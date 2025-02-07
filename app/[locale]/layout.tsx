@@ -28,7 +28,7 @@ export default async function LocaleLayout({
   const sideMenuData = [
     { name: "home →", link: "/" },
     { name: "express PDF Viewer →", link: "/pdfViwer/express" },
-    { name: "Memo Test um ja →", link: "/ja/memoTest/um/testtime" },
+    { name: "toc Test →", link: "/en/tocTest/tocType/test" },
   ];
 
   setRequestLocale(locale);

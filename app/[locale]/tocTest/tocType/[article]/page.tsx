@@ -1,5 +1,5 @@
 import React from "react";
-import UmTest from "./components/umtest";
+import ArticleTest from "./components/articleTest";
 import { headers } from "next/headers";
 
 const Page = async () => {
@@ -12,7 +12,7 @@ const Page = async () => {
       <p>ヘッダー情報：{host}</p>
 
       <p>---以下client---</p>
-      <UmTest></UmTest>
+      <ArticleTest></ArticleTest>
     </div>
   );
 };
